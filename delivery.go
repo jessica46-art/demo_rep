@@ -68,7 +68,7 @@ func (as *assigns) viewassg() {
 
 func main() {
 	var dev deliveryorg
-	dev.reps = append(dev.reps, Representative{Name: "Jatin", Mobile: "9966774433", Place: "Gurgaon"})
+	dev.reps = append(dev.reps, Representative{Name: "Bhoomi", Mobile: "9966774433", Place: "Delhi"})
 	fmt.Printf("%v\n", dev.reps[0])
 	//dev.AddDeliveryrep(Representative{Name: "ghj", Mobile: "987456321", Place: "bang"})
 
@@ -80,7 +80,7 @@ func main() {
 	var assg assigns
 	var odplace string
 	ord := make([]order, 0)
-	//var uv userver
+
 	for {
 		var userchoice int
 		fmt.Printf("enter\n 1.add representative \n 2.Assign order to representative \n 3.display orders and its representative\n")
